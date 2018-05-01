@@ -1,0 +1,119 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body{
+	/* Background image */
+	background-image: url(../img/back.png);
+
+	/* Adjust background repeat */ 
+	background-repeat: repeat-y;
+	background-repeat: repeat-x;
+	background-repeat: no-repeat;
+
+	background-image: url(../img/abstractbckgrnd.jpg);
+
+	/* Background size property */
+	background-size: 600px;
+	background-size: cover;
+
+	/* Background position property*/
+	background-position: center;
+
+	/* Background scroll property */
+	background-attachment: fixed;
+
+}
+
+
+h3{
+	color: #880088;
+}
+
+h1{
+	color: #003663;
+	/* Custom font family from Google Fonts*/
+	font-family: 'Oswald', sans-serif;
+}
+
+h2{
+	color: #003663;
+	background-color: white;
+	font-family: 'Oswald', sans-serif;
+	/* Make the element 100% wide */
+	display: block;
+}
+
+strong{
+	background-color: blue;
+	/* Floats content from left to right. Keep content size */
+	display: inline;
+}
+
+p{
+	/* Text color */
+	color: #003663;
+
+	font-family: 'Oswald', sans-serif;
+
+	/* Font size */
+	font-size: 16px;
+
+	/* Line height */
+	line-height: 20px;
+
+	/* Text alignment */
+	text-align: right;
+	text-align: center;
+	text-align: left;
+
+	/* Display properties */
+	display: inline;
+	display: none;
+	display: block;
+}
+
+li{
+	color: #003663;
+
+	font-family: 'Oswald', sans-serif;
+}
+
+/* . means "Class". Class is a general classification of tag */
+
+.intro{
+	background: black;
+
+	/* Padding */
+	padding: 12px;
+
+	/* Corner Radius */
+	border-radius: 20px;
+
+	/* Shortcut: all 4 sides (clockwise) */
+		/* top, right, bottom, left*/
+	margin-right:auto; 
+	margin-left:auto;
+
+	display:block;
+	width:50%;
+
+	/* Shortcut: all 4 sides (clockwise) */
+		/* top, right, bottom, left*/
+	padding: 20px 20px 20px 20px;
+
+}
+
+.intro-text{
+	font-size: 40px;
+}
+
+.big-letter{
+	/* This allows for a single letter to be custom. */
+	font-size: 90px;
+	color: red;
+}
+
+.container{
+	width: 960px;
+}
+
