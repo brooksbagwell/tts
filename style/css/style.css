@@ -1,0 +1,24 @@
+/* line 5, /Users/bbagwell79/Documents/GitHub/tts/style/sass/style.scss */
+body {
+  background: orange;
+}
+
+/* line 9, /Users/bbagwell79/Documents/GitHub/tts/style/sass/style.scss */
+h1 {
+  color: #ffc966;
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* line 14, /Users/bbagwell79/Documents/GitHub/tts/style/sass/style.scss */
+p {
+  color: #996300;
+  font-size: 25px;
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* line 21, /Users/bbagwell79/Documents/GitHub/tts/style/sass/style.scss */
+main h1 {
+  color: #996300;
+}
+
+/*# sourceMappingURL=../css/style.map */

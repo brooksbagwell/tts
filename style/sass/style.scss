@@ -1,0 +1,22 @@
+$primary-color: orange;
+$primary-font-size: 25px;
+$primary-font: helvetica, arial, sans-serif;
+
+body{
+  background: $primary-color;
+}
+
+h1{
+  color: lighten($primary-color, 20%);
+  font-family: $primary-font;
+}
+
+p{
+  color: darken($primary-color, 20%);
+  font-size: $primary-font-size;
+  font-family: $primary-font;
+}
+
+main{
+  h1{color:darken($primary-color, 20%)}
+}
