@@ -5,8 +5,8 @@
 		"../sass/style.scss"
 	],
 	"sourcesContent": [
-		"body{\n// Old example\n\n// .container{\n//   border: solid 1px black;\n// }\n// .container-fluid{\n//   border: solid 5px red;\n// }\n\n// SASS Optimized Example\n}\n.border{\n  border: solid 3px black;\n}\n\n.container{\n  @extend .border;\n  &-fluid{\n    @extend .border;\n    border-color: red;\n  }\n}\n\n[class^=\"col\"]{\n  @extend .border;\n}\n"
+		"// body{\n// // Old example\n//\n// // .container{\n// //   border: solid 1px black;\n// // }\n// // .container-fluid{\n// //   border: solid 5px red;\n// // }\n//\n// // SASS Optimized Example\n// }\n// .border{\n//   border: solid 3px black;\n// }\n//\n// .container{\n//   @extend .border;\n//   &-fluid{\n//     @extend .border;\n//     border-color: red;\n//   }\n// }\n//\n// [class^=\"col-\"]{\n//   @extend .border;\n// }\n"
 	],
-	"mappings": ";AAYA,AAAA,OAAO,EAIP,AAJA,UAIU,EAAV,AAJA,gBAIU,GAQV,AAAA,AAZA,KAYC,EAAO,KAAK,AAAZ,EAZM;EACL,MAAM,EAAE,eAAgB;CACzB;;;AAED,AAAA,gBAAU,CAED;EAEL,YAAY,EAAE,GAAI;CACnB",
+	"mappings": "",
 	"names": []
 }

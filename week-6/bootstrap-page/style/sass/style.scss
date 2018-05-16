@@ -1,27 +1,27 @@
-body{
-// Old example
-
+// body{
+// // Old example
+//
+// // .container{
+// //   border: solid 1px black;
+// // }
+// // .container-fluid{
+// //   border: solid 5px red;
+// // }
+//
+// // SASS Optimized Example
+// }
+// .border{
+//   border: solid 3px black;
+// }
+//
 // .container{
-//   border: solid 1px black;
+//   @extend .border;
+//   &-fluid{
+//     @extend .border;
+//     border-color: red;
+//   }
 // }
-// .container-fluid{
-//   border: solid 5px red;
+//
+// [class^="col-"]{
+//   @extend .border;
 // }
-
-// SASS Optimized Example
-}
-.border{
-  border: solid 3px black;
-}
-
-.container{
-  @extend .border;
-  &-fluid{
-    @extend .border;
-    border-color: red;
-  }
-}
-
-[class^="col"]{
-  @extend .border;
-}
